@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+     <group  android:checkableBehavior="single">
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="@string/home">
+            </item>
+     </group>
+
+    <item android:title="@string/category">
+        <menu>
+        <item
+            android:id="@+id/headlines"
+            android:title="@string/headlines">
+        </item>
+        <item
+            android:id="@+id/business"
+            android:title="@string/business">
+        </item>
+
+        <item
+            android:id="@+id/health"
+            android:title="@string/health">
+        </item>
+
+        <item
+            android:id="@+id/sports"
+            android:title="@string/sports">
+        </item>
+
+        <item
+            android:id="@+id/entertainment"
+            android:title="@string/entertainment">
+        </item>
+
+        <item
+            android:id="@+id/science"
+            android:title="@string/science">
+        </item>
+
+        <item
+            android:id="@+id/technology"
+            android:title="@string/technology">
+        </item>
+        </menu>
+    </item>
+</menu>
